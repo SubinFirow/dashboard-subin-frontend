@@ -1,0 +1,55 @@
+# .gitignore
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+# Logs
+logs/
+*.log
+*.log.*
+# dotenv environment variable files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Dependency directories
+node_modules/
+.pnpm/
+# Build and output directories
+dist/
+.next/
+out/
+build/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# MacOS and Linux files
+.DS_Store
+*.swp
+*.swo
+# Windows files
+Thumbs.db
+# ESLint and Prettier files
+.eslintcache
+.prettiercache
+
+# Coverage
+coverage/
+
+# TypeScript
+*.tsbuildinfo
