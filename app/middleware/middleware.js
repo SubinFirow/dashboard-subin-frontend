@@ -1,8 +1,15 @@
 "use client";
 import { useRouter } from "next/navigation";
+import { getToken } from "../services/authService";
 
 export const isAuthenticated = () => {
-  const token = localStorage.getItem("token");
+  console.log(typeof window);
+
+  if (typeof window === "undefined") {
+    return false;
+  }
+
+  const token = getToken();
   if (!token || token === "null" || token === "undefined") {
     return false;
   }

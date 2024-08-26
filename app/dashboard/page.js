@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { Box, Paper, styled, Typography } from "@mui/material";
+import { Box, Paper, styled } from "@mui/material";
 import Grid from "@mui/material/Unstable_Grid2";
 import Datatable from "./components/dataTable";
 import BarChart from "./components/BarChart";

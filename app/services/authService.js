@@ -1,3 +1,4 @@
+"use client";
 import axios from "axios";
 
 export const setToken = (token) => localStorage.setItem("token", token);

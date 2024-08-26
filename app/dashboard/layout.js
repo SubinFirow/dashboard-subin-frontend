@@ -1,5 +1,5 @@
 "use client";
-import { Box, IconButton } from "@mui/material";
+import { IconButton } from "@mui/material";
 import ProtectedRoute from "../middleware/middleware";
 import { Brightness4, Brightness7 } from "@mui/icons-material";
 import { getTheme } from "../theme/theme";
